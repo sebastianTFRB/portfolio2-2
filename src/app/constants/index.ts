@@ -9,8 +9,8 @@ import SpaceOrange2 from "./../../assets/slider1/planet1.png"
 import SpaceOrange3 from "./../../assets/slider1/planet1.png"
 import SpaceOrange4 from "./../../assets/slider1/planet1.png"
 
-//importaciones de navigation 
-import { RxHome, RxPerson, RxDashboard,RxArchive } from "react-icons/rx";
+
+import { RxHome, RxPerson, RxDashboard,RxArchive,RxChatBubble} from "react-icons/rx";
 //importaciones screen projectos
 import project1 from "./../../assets/images/project-1.jpg";
 import project2 from "./../../assets/images/project-2.jpg";
@@ -228,7 +228,7 @@ export const NavLinks = [
     link: "/",
   },
   {
-    name: "/ about",
+    name: "/about",
     icon: RxPerson,
     link: "/about",
   },
@@ -243,6 +243,11 @@ export const NavLinks = [
     icon: RxArchive,
     link: "/experiencia",
 
+  },
+  {
+    name: "/contactame",
+    icon: RxChatBubble,
+    link: "/contactame",
   }
 
 ];
