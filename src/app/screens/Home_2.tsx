@@ -1,4 +1,5 @@
 import Hero from '../components/Hero';
+import Contactme from '../components/Contactme';
 //import Navbar from '../components/Nav_bar';
 
 const Home_2 = () => {
@@ -10,7 +11,7 @@ const Home_2 = () => {
         </div>
   
         <div className='container mx-auto px-8'>
-        
+        <Contactme />
         <Hero />
         </div>
       </div>
