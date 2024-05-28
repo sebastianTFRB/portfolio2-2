@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import Footer from './components/footer';
-//import Header from './components/header';
+import Header from './components/header';
 //import Home from './screens/Home';
 import Home_2 from './screens/Home_2';
 import Projectos from './screens/Projectos';
@@ -14,6 +14,7 @@ function App() {
     <main className='flex flex-row w-screen h-screen  font-roboto'>
       
       <section className='flex-1 grid grid-rows-[auto_1fr_auto]'>
+        <Header/>
         <Navbar/>
         <section >
           <Routes>

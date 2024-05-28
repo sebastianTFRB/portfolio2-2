@@ -106,7 +106,12 @@ const Contactme: React.FC = () => {
       <Container>
         <Left>
           <Form ref={ref} onSubmit={handleSubmit}>
-            <Title>Contact Us</Title>
+            <Title >
+            <span className="bg-gradient-to-r from-blue-500 via-teal-400 to-green-300 bg-clip-text text-4xl font-bold  p-2 inline tracking-tight text-transparent">
+            My Projects
+            </span>
+            
+            </Title>
             <Input placeholder="Name" name="name" />
             <Input placeholder="Email" name="email" />
             <TextArea placeholder="Write your message" name="message" rows={10} />
