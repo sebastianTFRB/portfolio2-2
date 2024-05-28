@@ -6,7 +6,7 @@ import "swiper/css/free-mode";
 
 import { FreeMode, Pagination } from "swiper/modules";
 
-import { RxArrowRight } from "react-icons/rx";
+
 import { OrangeImages, PurpleImages } from "./../constants";
 
 const Slider2 = () => {

@@ -1,4 +1,4 @@
-import React from 'react';
+
 //importaciones de slider 1
 import SpaceCity1 from "./../../assets/slider1/SpaceCity.jpg"
 import SpaceCity2 from "./../../assets/slider1/SpaceCity.jpg"
@@ -10,7 +10,7 @@ import SpaceOrange3 from "./../../assets/slider1/planet1.png"
 import SpaceOrange4 from "./../../assets/slider1/planet1.png"
 
 //importaciones de navigation 
-import { RxHome, RxPerson, RxDashboard, RxClipboard,RxArchive } from "react-icons/rx";
+import { RxHome, RxPerson, RxDashboard,RxArchive } from "react-icons/rx";
 //importaciones screen projectos
 import project1 from "./../../assets/images/project-1.jpg";
 import project2 from "./../../assets/images/project-2.jpg";
