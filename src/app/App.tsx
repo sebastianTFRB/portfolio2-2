@@ -7,6 +7,7 @@ import About from './screens/About';
 import NotFound from './screens/NotFound';
 import Navbar from './components/Nav_bar';
 import Contactame from './screens/Contactame';
+
 function App() {
   return (
     <main className='flex flex-row w-screen h-screen  font-roboto'>
@@ -23,6 +24,8 @@ function App() {
             <Route path='/about' element={<About />} />
             <Route path='/contactame' element={<Contactame />} />
             <Route path='*' element={<NotFound />} />
+            
+            
           </Routes>
         </section>
         <Footer />

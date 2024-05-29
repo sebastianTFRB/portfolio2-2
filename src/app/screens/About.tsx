@@ -13,6 +13,7 @@ const About = () => {
         
         <Slider1 />
         <Slider2 />
+       
         
         </div>
       </div>

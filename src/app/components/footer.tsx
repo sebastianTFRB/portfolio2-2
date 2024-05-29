@@ -34,16 +34,14 @@ const Footer: React.FC = () => {
        
         
         
-        <a href="https://facebook.com" className={linkClasses}>
+        <a href="https://www.facebook.com/home.php?ref=wizard" className={linkClasses} target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faFacebook} size="lg" />
         </a>
-        <a href="https://instagram.com" className={linkClasses2}>
+        
+        <a href="https://www.instagram.com/delgadostiven.d?igsh=MXB4MGpoZGlxeDFuZw%3D%3D&utm_source=qr " className={linkClasses2} target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faInstagram} size="lg" />
         </a>
-        <a href="https://twitter.com" className={linkClasses3}>
-          <FontAwesomeIcon icon={faXTwitter} size="lg" />
-        </a>
-        <a href="https://github.com/sebastianTFRB" className={linkClasses4}>
+        <a href="https://github.com/sebastianTFRB" className={linkClasses4} target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faGithub} size="lg" />
         </a>
         <label htmlFor="language-select" className="sr-only">

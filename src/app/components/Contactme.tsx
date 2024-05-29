@@ -47,6 +47,7 @@ const Input = styled.input`
   background-color: #e8e6e6;
   border: none;
   border-radius: 5px;
+  color: black;
 `;
 
 const TextArea = styled.textarea`
@@ -54,6 +55,7 @@ const TextArea = styled.textarea`
   border: none;
   border-radius: 5px;
   background-color: #e8e6e6;
+  color: black;
 `;
 
 const Button = styled.button`
