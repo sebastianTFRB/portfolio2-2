@@ -1,36 +1,16 @@
-import'bootstrap/dist/css/bootstrap.min.css'
-
-import { Container } from 'react-bootstrap'
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook,faGithub,faXTwitter,faInstagram } from '@fortawesome/free-brands-svg-icons'
 
 
-const Home = () => {
+import { CoverParticles } from "./../components/Cover-parti";
+
+
+export default function Home() {
   return (
-    <div >
-    <Container>
-        <h1 className='text-center'> hello world</h1>
-        <div>
-            <a href="https://facebook.com">
-                <FontAwesomeIcon icon={faFacebook }/>
-            </a>
-            <a href="https://facebook.com">
-                <FontAwesomeIcon icon={faInstagram }/>
-            </a>
-            <a href="https://facebook.com">
-            <FontAwesomeIcon icon={faXTwitter} />
-            </a>
-            <a href="https://facebook.com">
-            <FontAwesomeIcon icon={faGithub} />
-            </a>
-
-        </div>
-    </Container>    
+    <main>
+    
+      <div className="flex min-h-[100vh] h-full bg-no-repeat bg-gradient-cover">
+        <CoverParticles />
      
-
-    </div>
-  )
+      </div>
+    </main>
+  );
 }
-
-export default Home

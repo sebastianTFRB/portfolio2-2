@@ -9,14 +9,18 @@ import About from './screens/About';
 import NotFound from './screens/NotFound';
 import Navbar from './components/Nav_bar';
 import Contactame from './screens/Contactame';
+//import  {CoverParticles}  from "./components/Cover-parti"; <CoverParticles/>
 function App() {
   return (
     <main className='flex flex-row w-screen h-screen  font-roboto'>
       
+      
       <section className='flex-1 grid grid-rows-[auto_1fr_auto]'>
         <Header/>
+        
         <Navbar/>
         <section >
+       
           <Routes>
             <Route path='/' element={<Home_2 />} />
             <Route path='/projectos' element={<Projectos />} />
