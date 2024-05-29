@@ -69,7 +69,7 @@ export const CoverParticles = () => {
                             density: {
                                 enable: true,
                             },
-                            value: 150,
+                            value: 180,
                         },
                         opacity: {
                             value: 0.6,
@@ -78,7 +78,7 @@ export const CoverParticles = () => {
                             type: "triangle",
                         },
                         size: {
-                            value: { min: 5, max: 10 },
+                            value: { min: 2, max: 6 },
                         },
                     },
                     detectRetina: true,
