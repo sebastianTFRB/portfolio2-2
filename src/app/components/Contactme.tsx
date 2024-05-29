@@ -1,4 +1,5 @@
 import React, { useRef, useState, FormEvent } from "react";
+import { useTranslation } from 'react-i18next';
 import emailjs from "emailjs-com";
 import styled from "styled-components";
 
@@ -74,6 +75,7 @@ const Right = styled.div`
 `;
 
 const Contactme: React.FC = () => {
+  const {t} = useTranslation();
   const ref = useRef<HTMLFormElement>(null);
   const [success, setSuccess] = useState<boolean | null>(null);
 
@@ -108,14 +110,14 @@ const Contactme: React.FC = () => {
           <Form ref={ref} onSubmit={handleSubmit}>
             <Title >
             <span className="bg-gradient-to-r from-blue-500 via-teal-400 to-green-300 bg-clip-text text-4xl font-bold  p-2 inline tracking-tight text-transparent">
-            My Projects
+            {t ('contact')}
             </span>
             
             </Title>
-            <Input placeholder="Name" name="name" />
-            <Input placeholder="Email" name="email" />
-            <TextArea placeholder="Write your message" name="message" rows={10} />
-            <Button type="submit">Send</Button>
+            <Input placeholder= {t ('Cname')} name="name" />
+            <Input placeholder={t ('Cemail')} name="email" />
+            <TextArea placeholder={t ('Cmessage')} name="message" rows={10} />
+            <Button type="submit">{t ('Csend')}</Button>
             {success && "Your message has been sent. We'll get back to you soon :)"}
           </Form>
         </Left>

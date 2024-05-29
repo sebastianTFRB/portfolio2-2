@@ -1,6 +1,5 @@
 
 //importaciones de slider 1
-
 import img1 from "./../../assets/slider1/acampar_amigos.jpg"
 import img2 from "./../../assets/slider1/caminar_amigos.jpg"
 import img3 from "./../../assets/slider1/comer_amigos.jpg"
@@ -9,7 +8,7 @@ import img5 from "./../../assets/slider1/jugar_amigos.jpg"
 import img6 from "./../../assets/slider1/motos_amigos.jpg"
 import img7 from "./../../assets/slider1/musica_amigos.jpg"
 import img8 from "./../../assets/slider1/reir_amigos.jpg"
-
+//importaciones de slider 2
 import smg1 from "./../../assets/slider1/boxeo_solo.jpg"
 import smg2 from "./../../assets/slider1/calistenia_solo.jpg"
 import smg3 from "./../../assets/slider1/cine_solo.jpg"
@@ -18,35 +17,33 @@ import smg5 from "./../../assets/slider1/gamer_solo.jpg"
 import smg6 from "./../../assets/slider1/judo_solo.jpg"
 import smg7 from "./../../assets/slider1/leer_solo.jpg"
 import smg8 from "./../../assets/slider1/taekondow_solo.jpg"
-
-
-
 import { RxHome, RxPerson, RxDashboard,RxArchive,RxChatBubble} from "react-icons/rx";
 //importaciones screen projectos
 import project1 from "./../../assets/images/project-1.jpg";
 import project2 from "./../../assets/images/project-2.jpg";
 import project3 from "./../../assets/images/project-3.jpg";
 import project4 from "./../../assets/images/project-4.jpg";
-import i18n from './../../i18n'
+
 //importacioness screen experiencia / tecnologuias
-import html from './../../assets/images/732212.png'; // Asegúrate de usar la extensión de archivo correcta
+import html from './../../assets/images/732212.png'; 
 import django from './../../assets/images/django.png';
 import javascript from './../../assets/images/Typescript.png';
 import reactImage from './../../assets/images/React-icon.png';
 import tailwind from './../../assets/images/tailwind.png';
 import vite from './../../assets/images/Vitejs-logo.png';
 import graphql from './../../assets/images/graphql_playground_macos_bigsur_icon_190105.png';
-import github from './../../assets/images/Git-Icon-1788C.png'
-import apache from './../../assets/images/Apache.png'
-import azure from './../../assets/images/azure.png'
+import github from './../../assets/images/Git-Icon-1788C.png';
+import apache from './../../assets/images/Apache.png';
+import azure from './../../assets/images/azure.png';
+import gnupg from "./../../assets/images/1200px-GnuPG-Logo.svg.png";
+import csh from "./../../assets/images/20230920a-learnicon.png";
+import cmas from "./../../assets/images/ISO_C++_Logo.svg.png";
+import java from "./../../assets/images/Java_programming_language_logo.svg.png";
+import python from "./../../assets/images/Python-logo-notext.svg.png";
+import neptune from "./../../assets/images/neptune.png";
+import dart from "./../../assets/images/pluginIcon.png";
 
-//import { useTranslation } from 'react-i18next';
- 
-//const { t } = useTranslation ();
-const HERO_CONTENT = i18n.t('exp');
-export { HERO_CONTENT }; 
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 
 
@@ -87,25 +84,83 @@ export const CONTACT = {
   email: "me@example.com",
 };
 
-export const TECHS = [
+export const LENGUAGES = [
   {
     id: 1,
     src: html,
-    title:"hol ami nombre es sebastion me gusta desde el momento en que lo use mi experiencia es orta pero representativa" ,
+    title:"Html" ,
     style:"shadow-orange-500"
 
   },
   {
     id: 2,
-    src: django,
-    title: "hol ami nombre es sebastion me gusta desde el momento en que lo use mi experiencia es orta pero representativa" ,
+    src:csh ,
+    title: "C##" ,
     style: "shadow-blue-500"
 
   },
   {
     id: 3,
     src: javascript,
-    title: "hol ami nombre es sebastion me gusta desde el momento en que lo use mi experiencia es orta pero representativat" ,
+    title: "typescript" ,
+    style: "shadow-yellow-500"
+
+  },
+  {
+    id: 4,
+    src: cmas,
+    title: "C++" ,
+    style:"shadow-blue-600"
+
+  },
+  {
+    id: 5,
+    src: java,
+    title: "Java" ,
+    style:"shadow-sky-400"
+
+  },
+  {
+    id: 6,
+    src: python,
+    title:"Python" ,
+    style:"shadow-white"
+
+  },
+  {
+    id: 7,
+    src:dart  ,
+    title:"Dart" ,
+    style:"shadow-pink-400"
+
+  },
+  {
+    id: 8,
+    src: graphql ,
+    title: "Graphql" ,
+    style: "shadow-red-400"
+
+  }
+]  
+export const TECHS = [
+  {
+    id: 1,
+    src: apache,
+    title:"Apache" ,
+    style:"shadow-orange-500"
+
+  },
+  {
+    id: 2,
+    src: django,
+    title: "Django" ,
+    style: "shadow-blue-500"
+
+  },
+  {
+    id: 3,
+    src: azure,
+    title: "Azure" ,
     style: "shadow-yellow-500"
 
   },
@@ -132,8 +187,8 @@ export const TECHS = [
   },
   {
     id: 7,
-    src: graphql,
-    title:"GraphQL" ,
+    src: neptune,
+    title:"Neptune" ,
     style:"shadow-pink-400"
 
   },
@@ -143,62 +198,11 @@ export const TECHS = [
     title: "GitHub" ,
     style: "shadow-red-400"
 
-  }
-]  
-export const LENGUAGES = [
-  {
-    id: 1,
-    src: apache,
-    title:"hol ami nombre es sebastion me gusta desde el momento en que lo use mi experiencia es orta pero representativa" ,
-    style:"shadow-orange-500"
-
-  },
-  {
-    id: 2,
-    src: django,
-    title: "hol ami nombre es sebastion me gusta desde el momento en que lo use mi experiencia es orta pero representativa" ,
-    style: "shadow-blue-500"
-
-  },
-  {
-    id: 3,
-    src: azure,
-    title: "hol ami nombre es sebastion me gusta desde el momento en que lo use mi experiencia es orta pero representativat" ,
-    style: "shadow-yellow-500"
-
-  },
-  {
-    id: 4,
-    src: reactImage,
-    title: "React" ,
-    style:"shadow-blue-600"
-
-  },
-  {
-    id: 5,
-    src: tailwind,
-    title: "Tailwind" ,
-    style:"shadow-sky-400"
-
-  },
-  {
-    id: 6,
-    src: vite,
-    title:"Next JS" ,
-    style:"shadow-white"
-
-  },
-  {
-    id: 7,
-    src: graphql,
-    title:"GraphQL" ,
-    style:"shadow-pink-400"
-
   },
   {
     id: 8,
-    src: github,
-    title: "GitHub" ,
+    src: gnupg,
+    title: "GnuPG" ,
     style: "shadow-red-400"
 
   }

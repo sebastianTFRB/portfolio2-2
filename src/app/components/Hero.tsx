@@ -1,7 +1,6 @@
-//import { HERO_CONTENT } from "../constants";
+
 import { useTranslation } from 'react-i18next';
-//import profilePic from "../assets/sfd.png"//error k /= K
-import profilePic from "./../../assets/images/sfd.png";// rastrea primero ./   ../= seleciona
+import profilePic from "./../../assets/images/sfd.png";
 
 const Hero = () => {
   const {t} = useTranslation();
@@ -14,10 +13,10 @@ const Hero = () => {
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500 ">{" "}DevOps{" "}</span>
           </h1>
             <span className="bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-4xl font-bold  inline tracking-tight text-transparent">
-            {t ('exp')}{/* Agrega una descripción sobre ti */}
+            {t ('exp')}
             </span>
             <p className="my-2 max-w-xl py-6 font-light tracking-tghiter">
-            {t ('description')}{/* Agrega una descripción sobre ti */}
+            {t ('description')}
             </p>
           </div>
         </div>
