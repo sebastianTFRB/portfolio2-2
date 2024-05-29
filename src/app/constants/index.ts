@@ -1,7 +1,25 @@
 
 //importaciones de slider 1
 
-import img from "./../../assets/slider1/acampar_amigos.jpg"
+import img1 from "./../../assets/slider1/acampar_amigos.jpg"
+import img2 from "./../../assets/slider1/caminar_amigos.jpg"
+import img3 from "./../../assets/slider1/comer_amigos.jpg"
+import img4 from "./../../assets/slider1/fiesta_amigos.jpg"
+import img5 from "./../../assets/slider1/jugar_amigos.jpg"
+import img6 from "./../../assets/slider1/motos_amigos.jpg"
+import img7 from "./../../assets/slider1/musica_amigos.jpg"
+import img8 from "./../../assets/slider1/reir_amigos.jpg"
+
+import smg1 from "./../../assets/slider1/boxeo_solo.jpg"
+import smg2 from "./../../assets/slider1/calistenia_solo.jpg"
+import smg3 from "./../../assets/slider1/cine_solo.jpg"
+import smg4 from "./../../assets/slider1/correr_solo.jpg"
+import smg5 from "./../../assets/slider1/gamer_solo.jpg"
+import smg6 from "./../../assets/slider1/judo_solo.jpg"
+import smg7 from "./../../assets/slider1/leer_solo.jpg"
+import smg8 from "./../../assets/slider1/taekondow_solo.jpg"
+
+
 
 import { RxHome, RxPerson, RxDashboard,RxArchive,RxChatBubble} from "react-icons/rx";
 //importaciones screen projectos
@@ -30,36 +48,7 @@ export { HERO_CONTENT };
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
-export const EXPERIENCES = [
-  {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2023 - Present",//year: t('description')
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
-];
+
 
 export const PROJECTS = [
   {
@@ -244,32 +233,61 @@ export const NavLinks = [
   }
 
 ];
-export const PurpleImages = [
+export const Purple1Images = [
   {
-    src: img,
+    src: img1,
   },
   {
-    src: img,
+    src: img2,
   },
   {
-    src: img,
+    src: img3,
   },
   {
-    src: img,
+    src: img4,
   },
 ];
 
-export const OrangeImages = [
+export const Orange1Images = [
   {
-    src: img,
+    src: img5,
   },
   {
-    src: img,
+    src: img6,
   },
   {
-    src: img,
+    src: img7,
   },
   {
-    src: img,
+    src: img8,
+  },
+];
+export const Purple2Images = [
+  {
+    src: smg1,
+  },
+  {
+    src: smg2,
+  },
+  {
+    src: smg3,
+  },
+  {
+    src: smg4,
+  },
+];
+
+export const Orange2Images = [
+  {
+    src: smg5,
+  },
+  {
+    src: smg6,
+  },
+  {
+    src: smg7,
+  },
+  {
+    src: smg8,
   },
 ];

@@ -7,7 +7,7 @@ import "swiper/css/free-mode";
 import { FreeMode, Pagination } from "swiper/modules";
 
 import { RxArrowRight } from "react-icons/rx";
-import { OrangeImages, PurpleImages } from "./../constants";
+import { Orange1Images, Purple1Images } from "./../constants";
 
 const Slider1 = () => {
   return (
@@ -41,7 +41,7 @@ const Slider1 = () => {
         >
           <SwiperSlide className="mb-14">
             <div className="grid grid-cols-2 gap-4 px-10">
-              {PurpleImages.map((image) => (
+              {Purple1Images.map((image) => (
                 <div className="relative group" key={image.src}>
                   <img
                     src={image.src}
@@ -59,7 +59,7 @@ const Slider1 = () => {
           </SwiperSlide>
           <SwiperSlide className="mb-14">
             <div className="grid grid-cols-2 gap-4 px-10">
-              {OrangeImages.map((image) => (
+              {Orange1Images.map((image) => (
                 <div className="relative group" key={image.src}>
                   <img
                     src={image.src}
