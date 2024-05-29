@@ -1,14 +1,7 @@
 
 //importaciones de slider 1
-import SpaceCity1 from "./../../assets/slider1/SpaceCity.jpg"
-import SpaceCity2 from "./../../assets/slider1/SpaceCity.jpg"
-import SpaceCity3 from "./../../assets/slider1/SpaceCity.jpg"
-import SpaceCity4 from "./../../assets/slider1/SpaceCity.jpg"
-import SpaceOrange1 from "./../../assets/slider1/planet1.png"
-import SpaceOrange2 from "./../../assets/slider1/planet1.png"
-import SpaceOrange3 from "./../../assets/slider1/planet1.png"
-import SpaceOrange4 from "./../../assets/slider1/planet1.png"
 
+import img from "./../../assets/slider1/acampar_amigos.jpg"
 
 import { RxHome, RxPerson, RxDashboard,RxArchive,RxChatBubble} from "react-icons/rx";
 //importaciones screen projectos
@@ -253,30 +246,30 @@ export const NavLinks = [
 ];
 export const PurpleImages = [
   {
-    src: SpaceCity1,
+    src: img,
   },
   {
-    src: SpaceCity2,
+    src: img,
   },
   {
-    src: SpaceCity3,
+    src: img,
   },
   {
-    src: SpaceCity4,
+    src: img,
   },
 ];
 
 export const OrangeImages = [
   {
-    src: SpaceOrange1,
+    src: img,
   },
   {
-    src: SpaceOrange2,
+    src: img,
   },
   {
-    src: SpaceOrange3,
+    src: img,
   },
   {
-    src: SpaceOrange4,
+    src: img,
   },
 ];

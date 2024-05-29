@@ -14,7 +14,7 @@ const Slider2 = () => {
     <div className="h-screen flex flex-col md:flex-row gap-5 items-center justify-center ">
       <div className="flex flex-col gap-4 ">
         <h1 className=" text-[70px] font-semibold">
-          <span className="text-purple-500">My Work.</span>
+          <span className="text-purple-500">My tiempo con los demas.</span>
           <p className="text-[16px] max-w-[400px] text-gray-200 md:text-gray-400">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
