@@ -46,10 +46,10 @@ export const CoverParticles = () => {
                     },
                     particles: {
                         color: {
-                            value: "#ffffff",
+                            value: "#14b8a6",
                         },
                         links: {
-                            color: "#ffffff",
+                            color: "#14b8a6",
                             distance: 150,
                             enable: true,
                             opacity: 0.5,
@@ -69,16 +69,16 @@ export const CoverParticles = () => {
                             density: {
                                 enable: true,
                             },
-                            value: 80,
+                            value: 150,
                         },
                         opacity: {
-                            value: 0.5,
+                            value: 0.6,
                         },
                         shape: {
-                            type: "circle",
+                            type: "triangle",
                         },
                         size: {
-                            value: { min: 1, max: 5 },
+                            value: { min: 5, max: 10 },
                         },
                     },
                     detectRetina: true,
