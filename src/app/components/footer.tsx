@@ -5,7 +5,7 @@ import'bootstrap/dist/css/bootstrap.min.css'
 
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook,faGithub,faXTwitter,faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook,faGithub,faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { useTranslation } from 'react-i18next';
 import { languageData } from '../data/data';
 
@@ -25,7 +25,6 @@ const Footer: React.FC = () => {
   };
   const linkClasses = "rounded-[20px] group relative bg-transparent border border-white px-5 py-3 text-lg text-blue-500 flex items-center justify-center shadow-md hover:scale-105 duration-500 py-2 mb-6 rounded shadow-blue-500";
   const linkClasses2 = "rounded-[20px] group relative bg-transparent border border-white px-5 py-3 text-lg text-orange-400 flex items-center justify-center shadow-md hover:scale-105 duration-500 py-2 mb-6 rounded shadow-orange-400";
-  const linkClasses3 = "rounded-[20px] group relative bg-transparent border border-white px-5 py-3 text-lg text-white flex items-center justify-center shadow-md hover:scale-105 duration-500 py-2 mb-6 rounded shadow-white";
   const linkClasses4 = "rounded-[20px] group relative bg-transparent border border-white px-5 py-3 text-lg text-red-500 flex items-center justify-center shadow-md hover:scale-105 duration-500 py-2 mb-6 rounded shadow-red-500";
   return (
     <footer className="w-full bg-black py-10">
